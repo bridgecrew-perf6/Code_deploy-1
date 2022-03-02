@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /html/
-    destination: /var/www
+  - source: /
+    destination: /home/cinimix/public_html
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
