@@ -3,6 +3,11 @@ os: linux
 files:
   - source: /
     destination: /home/cinimix/public_html
+hooks:
+  BeforeInstall:
+    - location: scripts/ownership_change
+      timeout: 300
+      runas: root
 
 
 
