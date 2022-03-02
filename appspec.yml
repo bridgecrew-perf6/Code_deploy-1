@@ -7,7 +7,7 @@ hooks:
   BeforeInstall:
     - location: scripts/ownership_change
       timeout: 300
-      runas: root
+      runas: cinimix
 
 
 
