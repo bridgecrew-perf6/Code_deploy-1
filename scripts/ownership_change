@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo chmod -R 755 /home/cinimix/public_html/*
+
+sudo chown -R cinimix:cinimix /home/cinimix/public_html/*
